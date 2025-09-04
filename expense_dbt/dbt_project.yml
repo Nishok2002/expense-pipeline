@@ -1,0 +1,16 @@
+name: 'expenses_dbt'
+version: '1.0.0'
+config-version: 2
+
+profile: 'expenses'
+
+model-paths: ["models"]
+
+models:
+  expenses_dbt:
+    staging:
+      +schema: analytics
+      +materialized: view
+    marts:
+      +schema: analytics
+      +materialized: table
