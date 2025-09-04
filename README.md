@@ -131,9 +131,9 @@ dbt run
 | 2025-08-01 | Transport     | -12.75 |
 
 ### Example Metabase Dashboards  
-- **Pie chart**: Expenses by category (Housing dominates).  
-- **Line chart**: Monthly spending trend.  
-- **Bar chart**: Income vs Expenses (net positive balance).  
+- Here’s an example Metabase dashboard showing expenses by category and monthly trends:
+
+![Metabase Dashboard](assets/metabase_dashboard.jpeg)
 
 ---
 
